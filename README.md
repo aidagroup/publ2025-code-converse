@@ -67,7 +67,14 @@ The following hyperparameters were used for the PPO algorithm:
 ## Neural Network Architecture
 
 A custom multilayer perceptron (MLP) (`CustomMLP`) was used as the neural network architecture, with the hyperparameters defined above. The architecture remained consistent for both Adam and RAdam experiments, allowing for a fair comparison.
-
+```
+{
+  "features_extractor": "CustomMLP(128)",  # State feature extraction
+  "pi": [64, 64],  # Policy network layers
+  "vf": [64, 64],  # Value function network layers
+  "optimizer": ["RAdam", "Adam"]  # Optimizer variants
+}
+```
 ## Results
 
 The following figures summarize the results of the experiment:
