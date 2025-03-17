@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import matplotlib.pyplot as plt
 
-csv_path = "./Csvs_opt"
+csv_path = "./Combined_CSVs"
 
 def extract_rewards_from_csv(csv_path):
     """Extracts all rewards and timesteps from a CSV file."""
