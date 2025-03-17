@@ -11,7 +11,7 @@ This repository compares RAdam and Adam optimizers in reinforcement learning usi
 ### Installation
 ``` bash
 git clone https://github.com/aidagroup/publ2025-code-converse.git
-python -m venv rl_opt_env
+python3 -m venv rl_opt_env
 source rl_opt_env/bin/activate  # Linux/MacOS
 # or .\rl_opt_env\Scripts\activate for Windows
 
