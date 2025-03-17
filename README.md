@@ -17,7 +17,7 @@ source rl_opt_env/bin/activate  # Linux/MacOS
 
 pip install -r requirements.txt
 ```
-## Experiment Execution
+## 🔬 Experiment Execution
 To reproduce the experiments with fixed system generation seeds while allowing neural network weight initialization variability:
 
 #### Run the full experiment (160 runs: 80 RAdam + 80 Adam)
@@ -66,7 +66,7 @@ The following hyperparameters were used for the PPO algorithm:
 
 
 
-## Neural Network Architecture
+### Neural Network Architecture
 
 A custom multilayer perceptron (MLP) (`CustomMLP`) was used as the neural network architecture, with the hyperparameters defined above. The architecture remained consistent for both Adam and RAdam experiments, allowing for a fair comparison.
 ```
@@ -77,7 +77,7 @@ A custom multilayer perceptron (MLP) (`CustomMLP`) was used as the neural networ
   "optimizer": ["RAdam", "Adam"]  # Optimizer variants
 }
 ```
-## Results
+## 📊 Results
 
 The following figures summarize the results of the experiment:
 
