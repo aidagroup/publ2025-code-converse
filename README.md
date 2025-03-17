@@ -1,8 +1,8 @@
 # Reinforcement Learning Optimizer Comparison Study
 
-![an example of the runs](https://github.com/aidagroup/publ2025-code-converse/blob/main/GFX/box_plot_Adam_RAdam_All_com.png "Box Plot for Adam and RAam with the final negative cost (reward)")
+![an example of the runs](https://github.com/aidagroup/publ2025-code-converse/blob/main/GFX/box_plot_Adam_RAdam_Styled.svg "Box Plot for Adam and RAam with the final negative cost (reward)")
 
-Box Plot for Adam and RAam optimizers, with the final negative reward (cost)
+Box plot comparing the final rewards obtained using Adam and RAdam optimizers.
 ## 📋 Overview
 This repository contains code and analysis for comparing RAdam vs Adam optimizers in PPO reinforcement learning agent training. The study uses dynamically generated control systems with fixed seed reproducibility while allowing neural network weight initialization variations.
 
@@ -32,7 +32,7 @@ python exstract_csvs.py
 
 
 ### Immedieatly Analyse our existing data
-we already have saved all 160 CSVs in a file named "Combined_CSVs" and exstract the final rewards then perform one of the latter tests.
+we already have saved all 160 CSVs in a file named "Combined_CSVs" and extract the final rewards then perform one of the latter tests.
 
 #### Generate statistical analysis plots
 ```python tensorboard_boxplot.py  # Comparative performance distributions
@@ -79,8 +79,6 @@ A custom multilayer perceptron (MLP) (`CustomMLP`) was used as the neural networ
 
 The following figures summarize the results of the experiment:
 
-* Box plot comparing the final rewards obtained using Adam and RAdam optimizers.
-![an example of the runs](https://github.com/aidagroup/publ2025-code-converse/blob/main/GFX/box_plot_Adam_RAdam_All_com.png "Box Plot for Adam and RAam with the final negative cost (reward)") 
 * F-test plot comparing the distribution of rewards (please add description).
 ![an example of the runs](https://github.com/aidagroup/publ2025-code-converse/blob/main/GFX/f_test_plot_Adam_RAdam_2.png) 
 * Kernel Density Estimate (KDE) plot visualizing the reward distributions for Adam and RAdam.
