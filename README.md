@@ -21,13 +21,13 @@ pip install -r requirements.txt
 To reproduce the experiments with fixed system generation seeds while allowing neural network weight initialization variability:
 
 #### Run the full experiment (160 runs: 80 RAdam + 80 Adam)
-```python main.py```
+```python3 main.py```
 
 ### Visualize results using TensorBoard
 ```
 tensorboard --logdir=multi_opt_full_experiment/ --port 8888
 # Extract the final values using 
-python exstract_csvs.py
+python3 exstract_csvs.py # Change the URL to the new downloading link from tensorboard localhost
 ```
 
 
@@ -36,10 +36,10 @@ we already have saved all 160 CSVs in a file named "Combined_CSVs" and extract t
 
 #### Generate statistical analysis plots
 ```python tensorboard_boxplot.py  # Comparative performance distributions
-python tensorboard_fscore.py   # F-test significance analysis
-python tensorboard_hist.py     # Reward distribution histograms
-python tensorboard_plots.py    # Training progression curves
-python tensorboard_boxplot.py  # Comparative performance distributions
+python3 tensorboard_fscore.py   # F-test significance analysis
+python3 tensorboard_hist.py     # Reward distribution histograms
+python3 tensorboard_plots.py    # Training progression curves
+python3 tensorboard_boxplot.py  # Comparative performance distributions
 
 ```
 ### Configuration Details
