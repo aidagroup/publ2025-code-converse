@@ -4,7 +4,7 @@
 
 Box plot comparing the final rewards obtained using Adam and RAdam optimizers.
 ## 📋 Overview
-This repository contains code and analysis for comparing RAdam vs Adam optimizers in PPO reinforcement learning agent training. The study uses dynamically generated control systems with fixed seed reproducibility while allowing neural network weight initialization variations.
+This repository compares RAdam and Adam optimizers in reinforcement learning using converse optimality. The study employs dynamically generated control systems with multi-dimensional truncated Fourier series dynamics. System generation uses fixed seeds for reproducibility, while neural network initialization remains stochastic, enabling rigorous optimizer evaluation under controlled conditions.
 
 ## 🚀 Quick Start
 
