@@ -12,6 +12,7 @@ class CustomMLP(BaseFeaturesExtractor):
             nn.Linear(64, features_dim),
             nn.ReLU(),
         )
+        
 
     def forward(self, observations: th.Tensor) -> th.Tensor:
         return self.mlp(observations)
