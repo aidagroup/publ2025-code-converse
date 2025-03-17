@@ -10,6 +10,7 @@ This repository contains code and analysis for comparing RAdam vs Adam optimizer
 
 ### Installation
 ``` bash
+git clone https://github.com/aidagroup/publ2025-code-converse.git
 python -m venv rl_opt_env
 source rl_opt_env/bin/activate  # Linux/MacOS
 # or .\rl_opt_env\Scripts\activate for Windows
