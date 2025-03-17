@@ -1,4 +1,4 @@
-# Reinforcement Learning Optimizer Comparison Study
+# Inspecting Response to Environment Variation with Converse Optimality
 
 ![an example of the runs](https://github.com/aidagroup/publ2025-code-converse/blob/main/GFX/box_plot_Adam_RAdam_Styled.svg "Box Plot for Adam and RAam with the final negative cost (reward)")
 
