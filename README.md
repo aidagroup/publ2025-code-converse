@@ -1,4 +1,4 @@
-# Inspecting Response to Environment Variation with Converse Optimality
+# Generating Informative Benchmarks for Reinforcement Learning
 
 ## 📋 Overview
 This repository compares RAdam and Adam optimizers in reinforcement learning using converse optimality. The study employs dynamically generated control systems with multi-dimensional truncated Fourier series dynamics. System generation uses fixed seeds for reproducibility, while neural network initialization remains stochastic, enabling rigorous optimizer evaluation under controlled conditions.
