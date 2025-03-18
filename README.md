@@ -1,8 +1,5 @@
 # Inspecting Response to Environment Variation with Converse Optimality
 
-![an example of the runs](https://github.com/aidagroup/publ2025-code-converse/blob/main/GFX/box_plot_Adam_RAdam_Styled.svg "Box Plot for Adam and RAam with the final negative cost (reward)")
-
-Box plot comparing the final rewards obtained using Adam and RAdam optimizers.
 ## 📋 Overview
 This repository compares RAdam and Adam optimizers in reinforcement learning using converse optimality. The study employs dynamically generated control systems with multi-dimensional truncated Fourier series dynamics. System generation uses fixed seeds for reproducibility, while neural network initialization remains stochastic, enabling rigorous optimizer evaluation under controlled conditions.
 
