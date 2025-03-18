@@ -39,6 +39,7 @@ we already have saved all 160 CSVs in a file named "Combined_CSVs" and extract t
 python3 analysis_scripts/tensorboard_fscore.py   # F-test significance analysis
 python3 analysis_scripts/tensorboard_hist.py     # Reward distribution histograms
 python3 analysis_scripts/tensorboard_boxplot.py  # Comparative performance distributions
+python3 analysis_scripts/Final_Rewards_Distribution_KDE.py # Generate the final reward distribution using a gaussian kernal
 
 ```
 ### Configuration Details
