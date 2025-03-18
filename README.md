@@ -87,5 +87,3 @@ The following figures summarize the results of the experiment:
 
 
 
-
-*(Add a brief, insightful summary of the findings based on the plots)*
