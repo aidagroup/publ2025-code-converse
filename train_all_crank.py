@@ -128,7 +128,7 @@ for algo in algorithms:
             max_grad_norm = 0.5,
         )
     else:  # sac
-        args.timesteps=50_000
+        args.timesteps=500_000
         print(args.timesteps)
         print(args.timesteps)
         print(args.timesteps)
@@ -140,7 +140,7 @@ for algo in algorithms:
             learning_rate   = 1e-3,
             buffer_size     = 1400,
             learning_starts = 100,
-            batch_size      = 128,
+            batch_size      = 64,
             tau             = 0.005,
             gamma           = 0.99,
             train_freq      = 1,
