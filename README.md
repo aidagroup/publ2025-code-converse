@@ -274,7 +274,6 @@ Graphs: policy & value networks
   year={2025},
   publisher={IEEE}
 }
-}
 ```
   <ul>
     <!-- Add your citations here -->
