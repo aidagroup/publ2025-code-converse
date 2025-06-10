@@ -265,6 +265,17 @@ Graphs: policy & value networks
 <!-- Citation placeholder -->
 <section id="references">
   <h2>Citation</h2>
+
+  ```
+@article{yamerenko2025generating,
+  title={Generating Informative Benchmarks for Reinforcement Learning},
+  author={Yamerenko, Grigory and Ibrahim, Sinan and Moreno-Mora, Francisco and Osinenko, Pavel and Streif, Stefan},
+  journal={IEEE Control Systems Letters},
+  year={2025},
+  publisher={IEEE}
+}
+}
+```
   <ul>
     <!-- Add your citations here -->
   </ul>
